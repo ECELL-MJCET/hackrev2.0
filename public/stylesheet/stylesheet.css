@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+@font-face {
+    font-family: 'peace';
+    src: url('peacesans.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'flow';
+    src: url('florence.ttf') format('ttf');
+    font-style: normal;
+    font-display: swap;
+=======
+@font-face {
+    font-family: 'peace';
+    src: url('peacesans.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'flow';
+    src: url('florence.ttf') format('ttf');
+    font-style: normal;
+    font-display: swap;
+>>>>>>> ba5080f (host-level)
+}

@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+
+
+body {
+  background-color: #18141c;
+  /* background-image: linear-gradient(to right,#18141c, rgb(91, 65, 118)); */
+}
+
+.htext{
+  font-family: peace;
+}
+
+
+@font-face {
+  font-family: 'peace';
+  src: url('/stylesheet/peacesans.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('/stylesheet/montserrat.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+.hsmall{
+  font-family: montserrat;
+}
+
+.shadows {
+  box-shadow: -2px 5px 10px 0px rgba(57, 167, 255, 0.4);
+}
+
+.shadows:hover {
+  transform: translateY(-5px);
+  transition-duration: 400ms;
+  box-shadow: -4px 8px 20px 0px rgba(57, 167, 255, 0.4);
+
+}
+
+.trans {
+  transform: translate(-50%, 50%);
+  width: 750px;
+  /* position: relative; */
+  display: block;
+  overflow: hidden;
+}
+
+.running {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  min-width: 100%;
+  padding-left: 100%;
+  animation: running 10s linear infinite ;
+}
+
+@keyframes running {
+  0% {
+    transform: translate(0,0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+.bg-gradient-conic1 {
+  background-image: conic-gradient(from 0deg at 50% 50%, var(--tw-gradient-stops));
+}
+
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(-15%);
+      animation-timing-function: cubic-bezier(0.8,0,1,1);
+  }
+  50% {
+      transform: none;
+      animation-timing-function: cubic-bezier(0,0,0.2,1);
+  }
+}
+.animate-bounce {
+  animation: bounce 2s infinite;
+}
