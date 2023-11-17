@@ -25,14 +25,13 @@ export default function Home() {
         <Timeline />
         <Prizes />
       </div>
-      <div className="bg-gradient-radial from-[#0E0F68] to-[#18141c]">
-        <History />
-      </div>
+      <div className="bg-gradient-radial from-[#0E0F68] to-[#18141c]"></div>
       <div className="bg-gradient-radial from-[#0E0F68] to-[#18141c]">
         <Rules />
       </div>
       <div className="bg-gradient-radial from-[#0E0F68] to-[#18141c]">
         <Registration />
+        <History />
         <Organizers />
         <Footer />
       </div>
