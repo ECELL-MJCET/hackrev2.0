@@ -19,9 +19,10 @@ const Header = () => {
                 <div className='uppercase text-white'><Image src="../assets/mj1.png" width={150} height={100} alt='svg' className='h-20 w-full lg:h-22 lg:w-full mt-5'/></div>
                 <div className='hidden lg:block'>
                 <ul className='text-gray-400 text-[18px] flex flex-row items-center gap-9 font-mono font-semibold'>
-                    <li><Link href="" className=' hover:text-[#39a7ff] transition duration-300'>Home</Link></li>
-                    <li><Link href="" className=' hover:text-[#39a7ff] transition duration-300'>Rules</Link></li>
-                    <li><Link href="" className=' hover:text-[#39a7ff] transition duration-300'>Register</Link></li>
+                    {/* <li><Link href="" className=' hover:text-[#39a7ff] transition duration-300'>Home</Link></li> */}
+                    <li><Link href="#Rules" className=' hover:text-[#39a7ff] transition duration-300'>Rules</Link></li>
+                    <li><Link href="/form" className=' hover:text-[#39a7ff] transition duration-300'>Register</Link></li>
+                    <li><Link href="" className=' hover:text-[#39a7ff] transition duration-300'>Timeline</Link></li>
                     <li><Link href="" className=' hover:text-[#39a7ff] transition duration-300'>Contact</Link></li>
                 </ul>
                 </div>
@@ -51,9 +52,9 @@ const Header = () => {
            
             </div>
             <div>
-                <Link className='' href='https://docs.google.com/forms/d/e/1FAIpQLSdvgoPeIs7DYNlr1C2-hjQt9-g28w0IX_Vq7fQPYm48Ip8QOg/viewform' target='_blank'>
+                <Link className='' href='/form'>
                 <div className='flex justify-center items-center px-7 py-3 border-2 border-[#39a7ff] rounded-lg shadows cursor-pointer hover:bg-[#39a7ff] hover:bg-opacity-70 mt-10 lg:mt-20  duration-500'>
-                    <div className='text-lg lg:text-xl text-white hsmall flex justify-center items-center font-extrabold'>Register Now <BsArrowRight  className='ml-1'/></div>
+                    <div className='text-lg lg:text-xl text-white hsmall flex justify-center items-center font-extrabold'>Register Here <BsArrowRight  className='ml-1'/></div>
                 </div>
                 </Link>
             </div>

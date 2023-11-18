@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import React from "react";
 
@@ -11,7 +12,12 @@ const Footer = () => {
           <p className="text-white text-center">© Organizers @ HackRevolution | all rights reserved</p>
           <p className="text-white text-center mt-4 lg:mt-0">Developed by <Link href='https://www.linkedin.com/in/abdulbasith1733/' target='_blank'><span className="text-[#39a7ff]  font-extrabold">Abdul Basith</span></Link> and Team</p>
         </div>
+        
+
+
+
       </div>
+      
     </div>
   );
 };

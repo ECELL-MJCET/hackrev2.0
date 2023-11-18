@@ -36,10 +36,10 @@ const Registration = () => {
             </ul>
           </div>
           <div className="flex justify-center items-center px-5 py-3 border-2 border-[#39a7ff] rounded-xl cursor-pointer bg-[#39a7ff] hover:bg-opacity-70 w-[80%] lg:w-[25%]  mt-5 duration-500 animate-bounce hover:animate-none transition delay-300">
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdvgoPeIs7DYNlr1C2-hjQt9-g28w0IX_Vq7fQPYm48Ip8QOg/viewform" target="_blank">
+          <Link href='/form'>
            
               <div className="text-lg lg:text-[20px] text-white hsmall flex justify-center items-center font-extrabold">
-                Register Now <BsArrowRight className="ml-1" />
+                Register Here <BsArrowRight className="ml-1" />
             
             </div>
           </Link>
