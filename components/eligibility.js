@@ -9,18 +9,28 @@ const Eligibility = () => {
           Eligibility Criteria
         </div>
         <div className="flex flex-row justify-center items-center">
-        <div className="flex flex-col lg:w-[50%]  ">
+          <div className="flex flex-col lg:w-[50%]  ">
             <ul className="list-disc text-white hsmall font-extrabold text-lg leading-relaxed ">
-                <li>Open to students, enterpreneurs or working professionals with an idea.</li>
-                <li>Teams must consist of a minimum of 3 members and a maximum of 5 members.</li>
-                <li>Team members can be from different colleges as well.</li>
-                <li>Each team must have a woman as one of the active key members.</li>
-                <li>Only registered participants will be eligible to participate.</li>
+              <li>
+                Open to students, enterpreneurs or working professionals with an
+                idea.
+              </li>
+              <li>
+                Teams must consist of a minimum of 3 members and a maximum of 5
+                members.
+              </li>
+              <li>Team members can be from different colleges as well.</li>
+              <li>
+                Each team must have a woman as one of the active key members.
+              </li>
+              <li>
+                Only registered participants will be eligible to participate.
+              </li>
             </ul>
-        </div>
-       <div className="hidden lg:block">
-        <img src="../assets/des1.png" alt="" />
-       </div>
+          </div>
+          <div className="hidden lg:block">
+            <img src="../assets/des1.webp" alt="" />
+          </div>
         </div>
       </div>
     </div>

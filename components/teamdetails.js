@@ -7,7 +7,6 @@ const TeamDetails = () => {
       <div>
         <h1 className="text-black mx-[20px] text-[28px]">Team Member {no}</h1>
       </div>
-
       <div className="flex flex-col items-center">
         <div className="w-full flex flex-col mt-[20px]">
           <span className="mx-[20px]">Enter Name</span>
@@ -26,7 +25,6 @@ const TeamDetails = () => {
           />
         </div>
       </div>
-
       <div className="flex flex-wrap">
         <div className="flex flex-col mt-[20px]">
           <span className="mx-[20px]">Enter Branch</span>

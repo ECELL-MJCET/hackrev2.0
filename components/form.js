@@ -1,10 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Button from 'next'
 
-import DropDown from "@/components/dropdown";
-import Abstract from "@/components/abstract";
 import "tailwindcss/tailwind.css";
-import TeamDetails from "@/components/teamdetails";
 
 export default function Forms() {
   const [teamMembers, setTeamMembers] = useState([1]);
@@ -20,9 +16,9 @@ export default function Forms() {
       setTeamMembers(newTeamMembers);
     }
   }, [selectedOption]);
-// tracks
- 
-// abstract
+  // tracks
+
+  // abstract
   const [selectedFile, setSelectedFile] = useState(null);
 
   // On file select (from the pop up)
@@ -42,37 +38,36 @@ export default function Forms() {
     // Details of the uploaded file
     console.log(selectedFile);
   };
-    //abstract 2
-    const [file, setFile] = useState(null);
+  //abstract 2
+  const [file, setFile] = useState(null);
 
   const handleFileChange = (e) => {
     setFile(e.target.files[0]);
   };
-  
+
   const handleSub = async () => {
     if (!file) {
-      console.error('No file selected');
+      console.error("No file selected");
       return;
     }
 
     const formData = new FormData();
-    formData.append('file', file);
+    formData.append("file", file);
 
     try {
-      const response = await fetch('https://forms.gle/zy4n3ipZfZWaWxaA6', {
-        method: 'POST',
+      const response = await fetch("https://forms.gle/zy4n3ipZfZWaWxaA6", {
+        method: "POST",
         body: formData,
       });
 
       if (response.ok) {
-        console.log('File submitted successfully');
+        console.log("File submitted successfully");
       } else {
-        console.error('File submission failed');
+        console.error("File submission failed");
       }
     } catch (error) {
-      console.error('Error submitting file:', error);
+      console.error("Error submitting file:", error);
     }
-  
   };
   return (
     <form
@@ -344,31 +339,47 @@ export default function Forms() {
             />
           </div>
         </div>
-{/* tracks */}
-<div className="mx-[20px] mt-[20px]">
-      <label className="text-[28px]">
-        Select Track
-        <select className="text-gray-700 text-[28px] mx-[10px] rounded-md" name="entry.908273825"
-          type= "radio">
-          <option value={"Generic Software"}>Generic Software</option>
-          <option value={"Generic Hardware"}>Generic Hardware</option>
-          <option value={"Health Care"}>Health Care</option>
-          <option value={"Fin-Tech"}>Fin-Tech</option>
-        </select>
-      </label>
-    </div>
-       
+        {/* tracks */}
+        <div className="mx-[20px] mt-[20px]">
+          <label className="text-[28px]">
+            Select Track
+            <select
+              className="text-gray-700 text-[28px] mx-[10px] rounded-md"
+              name="entry.908273825"
+              type="radio"
+            >
+              <option value={"Generic Software"}>Generic Software</option>
+              <option value={"Generic Hardware"}>Generic Hardware</option>
+              <option value={"Health Care"}>Health Care</option>
+              <option value={"Fin-Tech"}>Fin-Tech</option>
+            </select>
+          </label>
+              
+        </div>
+
         {/* <Abstract /> */}
         <div className="mx-[20px] mt-[20px]">
-      <h1 className="text-[28px] ">Upload your Abstract</h1>
-      <div>
-        <input type="file" accept=".ppt, .pptx" id="fileInput"  name="entry.429654859"  onChange={handleFileChange}/>
-        <button className="bg-[#39a7ff] text-white p-2 rounded-md cursor-pointer"   onClick={handleSub}>
-          Choose File
-        </button>
-      </div>
-    </div>
-        <button className="w-full text-center bg-[#39a7ff] mt-[20px] p-2 rounded-b-[8px] text-white cursor-pointer" type="submit">
+          <h1 className="text-[28px] ">Upload your Abstract</h1>
+          <div>
+            <input
+              type="file"
+              accept=".ppt, .pptx"
+              id="fileInput"
+              name="entry.429654859"
+              onChange={handleFileChange}
+            />
+            <button
+              className="bg-[#39a7ff] text-white p-2 rounded-md cursor-pointer"
+              onClick={handleSub}
+            >
+              Choose File
+            </button>
+          </div>
+        </div>
+        <button
+          className="w-full text-center bg-[#39a7ff] mt-[20px] p-2 rounded-b-[8px] text-white cursor-pointer"
+          type="submit"
+        >
           Submit
         </button>
       </div>

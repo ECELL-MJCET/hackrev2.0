@@ -12,14 +12,14 @@ const Organizers = () => {
         <div className="flex flex-row justify-center items-center">
           <div className="flex flex-col justify-center lg:flex-row lg:justify-between items-center lg:space-x-28">
             <Image
-              src="../assets/ectext.png"
+              src="../assets/ectext.webp"
               width={150}
               height={150}
               alt="svg"
               className="h-20 w-[150px] lg:h-20 lg:w-full mt-5 mx-[40px]"
             />
             <Image
-              src="../assets/csilogo.png"
+              src="../assets/csilogo.webp"
               width={150}
               height={150}
               alt="svg"
