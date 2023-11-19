@@ -1,16 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-// import BiHomeAlt2 from 'react-icons/'
-import HomeIcon from "@mui/icons-material/Home";
-import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
 
 const Nav = () => {
   return (
     <div className="flex justify-center ">
       <div className="header w-[90%] lg:w-[75%] mt-8 lg:mt-5 mb-10">
         <div className="flex flex-col lg:flex-row justify-center lg:justify-between items-center h-20 ">
-       
           <div>
             <div className="uppercase text-white hidden lg:block">
               <Image
@@ -69,44 +65,44 @@ const Nav = () => {
             </ul>
           </div>
           <div className="block lg:hidden ">
-          <div className=''>
-            {/* <HomeIcon className="h-10 W-10 text-white " /> */}
-            <ul className="text-gray-400 text-[15px] lg:text-[18px] flex flex-row items-center gap-9 font-mono font-semibold ">
-              <li>
-                <Link
-                  href="/"
-                  className=" hover:text-[#39a7ff] transition duration-300"
-                >
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href=""
-                  className=" hover:text-[#39a7ff] transition duration-300"
-                >
-                  Rules
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href=""
-                  className=" hover:text-[#39a7ff] transition duration-300"
-                >
-                  Timeline
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href=""
-                  className=" hover:text-[#39a7ff] transition duration-300"
-                >
-                  Contact
-                </Link>
-              </li>
-            </ul>
-            {/* <BiHomeAlt2 className="h-10 W-10 text-white " /></div> */}
-            {/* <PhoneInTalkIcon className="h-10 W-10 text-white " /> */}
+            <div className="">
+              {/* <HomeIcon className="h-10 W-10 text-white " /> */}
+              <ul className="text-gray-400 text-[15px] lg:text-[18px] flex flex-row items-center gap-9 font-mono font-semibold ">
+                <li>
+                  <Link
+                    href="/"
+                    className=" hover:text-[#39a7ff] transition duration-300"
+                  >
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href=""
+                    className=" hover:text-[#39a7ff] transition duration-300"
+                  >
+                    Rules
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href=""
+                    className=" hover:text-[#39a7ff] transition duration-300"
+                  >
+                    Timeline
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href=""
+                    className=" hover:text-[#39a7ff] transition duration-300"
+                  >
+                    Contact
+                  </Link>
+                </li>
+              </ul>
+              {/* <BiHomeAlt2 className="h-10 W-10 text-white " /></div> */}
+              {/* <PhoneInTalkIcon className="h-10 W-10 text-white " /> */}
             </div>
           </div>
         </div>
