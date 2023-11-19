@@ -10,7 +10,7 @@ const Nav = () => {
           <div>
             <div className="uppercase text-white hidden lg:block">
               <Image
-                src="../assets/mj1.png"
+                src="../assets/mj1.webp"
                 width={150}
                 height={100}
                 alt="svg"
@@ -20,7 +20,7 @@ const Nav = () => {
             {/* <div>hello</div> */}
             <div className="uppercase text-white block lg:hidden">
               <Image
-                src="../assets/mj.png"
+                src="../assets/mj.webp"
                 width={150}
                 height={100}
                 alt="svg"
@@ -40,16 +40,18 @@ const Nav = () => {
               </li>
               <li>
                 <Link
-                  href=""
+                  href="/#Rules"
                   className=" hover:text-[#39a7ff] transition duration-300"
+                  scroll={true}
                 >
                   Rules
                 </Link>
               </li>
               <li>
                 <Link
-                  href=""
+                  href="#timeline"
                   className=" hover:text-[#39a7ff] transition duration-300"
+                  scroll={true}
                 >
                   Timeline
                 </Link>

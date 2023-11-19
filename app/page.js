@@ -21,12 +21,18 @@ export default function Home() {
 
       {/* </div> */}
 
-      <div className="bg-gradient-radial from-[#0E0F68] to-[#18141c]">
+      <div
+        id="timeline"
+        className="bg-gradient-radial from-[#0E0F68] to-[#18141c]"
+      >
         <Timeline />
         <Prizes />
       </div>
       <div className="bg-gradient-radial from-[#0E0F68] to-[#18141c]"></div>
-      <div className="bg-gradient-radial from-[#0E0F68] to-[#18141c]">
+      <div
+        id="Rules"
+        className="bg-gradient-radial from-[#0E0F68] to-[#18141c]"
+      >
         <Rules />
       </div>
       <div className="bg-gradient-radial from-[#0E0F68] to-[#18141c]">

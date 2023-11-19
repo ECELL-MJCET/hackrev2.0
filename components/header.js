@@ -31,6 +31,7 @@ const Header = () => {
                 <Link
                   href="#Rules"
                   className=" hover:text-[#39a7ff] transition duration-300"
+                  scroll={true}
                 >
                   Rules
                 </Link>
@@ -45,8 +46,9 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  href=""
+                  href="#timeline"
                   className=" hover:text-[#39a7ff] transition duration-300"
+                  scroll={true}
                 >
                   Timeline
                 </Link>
