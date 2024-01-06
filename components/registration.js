@@ -16,8 +16,7 @@ const Registration = () => {
               <li>The teams can register through the link </li>
               {/* <li>Teams can submit upto 2 abstracts per track / domain.</li> */}
               <li>
-                The teams must follow the PPT template provided for idea
-                
+                The teams must follow the PPT template provided for idea 
                 submission. (Where is the template ?)
               </li>
               <li> <Link href="https://docs.google.com/presentation/d/1GhjgVSNbTkEbMkpWjpkKEN30jCmfvd7n/edit?usp=sharing&ouid=107302460270637865614&rtpof=true&sd=true" target="_blank"><span className="text-[#39a7ff] underline underline-offset-1 cursor-pointer">Click Here</span> </Link>to download sample PPT</li>
@@ -36,10 +35,10 @@ const Registration = () => {
             </ul>
           </div>
           <div className="flex justify-center items-center px-5 py-3 border-2 border-[#39a7ff] rounded-xl cursor-pointer bg-[#39a7ff] hover:bg-opacity-70 w-[80%] lg:w-[25%]  mt-5 duration-500 animate-bounce hover:animate-none transition delay-300">
-          <Link href='/form'>
+          <Link href='/results'>
            
               <div className="text-lg lg:text-[20px] text-white hsmall flex justify-center items-center font-extrabold">
-                Register Here <BsArrowRight className="ml-1" />
+                View Results<BsArrowRight className="ml-1" />
             
             </div>
           </Link>

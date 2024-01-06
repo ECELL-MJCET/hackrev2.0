@@ -61,7 +61,7 @@ const Rules = () => {
         <ul>
           <li>
             1. Shortlisted teams will be informed through their registered
-            emails between 6th to 9th December.
+            emails between 6th to 10th December.
           </li>
           <li>2. Team must register before 12th December.</li>
           <li>3. Teams that fail to register will be disqualified.</li>

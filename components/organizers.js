@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Organizers = () => {
   return (
@@ -11,19 +12,19 @@ const Organizers = () => {
 
         <div className="flex flex-row justify-center items-center">
           <div className="flex flex-col justify-center lg:flex-row lg:justify-between items-center lg:space-x-28">
-            <Image
+           <Link href="https://ecellmjcet.in" target="_blank"><Image
               src="../assets/ectext.webp"
               width={150}
               height={150}
               alt="svg"
-              className="h-20 w-[150px] lg:h-20 lg:w-full mt-5 mx-[40px]"
-            />
+              className="h-20 w-[150px] lg:h-20 lg:[400px] mt-5 mx-[20px]"
+            /></Link>
             <Image
               src="../assets/csilogo.webp"
               width={150}
               height={150}
               alt="svg"
-              className="h-20 w-[150px] lg:h-22 lg:w-full mt-12 lg:mt-5 mx-[40px]"
+              className="h-20 w-[150px] lg:h-22 lg:[300xp] mt-12 lg:mt-5 mx-[20px]"
             />
           </div>
         </div>

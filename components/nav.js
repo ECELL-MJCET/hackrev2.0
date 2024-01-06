@@ -49,7 +49,7 @@ const Nav = () => {
               </li>
               <li>
                 <Link
-                  href="#timeline"
+                  href="/#timeline"
                   className=" hover:text-[#39a7ff] transition duration-300"
                   scroll={true}
                 >
@@ -80,7 +80,7 @@ const Nav = () => {
                 </li>
                 <li>
                   <Link
-                    href=""
+                    href="/#Rules"
                     className=" hover:text-[#39a7ff] transition duration-300"
                   >
                     Rules
@@ -88,7 +88,7 @@ const Nav = () => {
                 </li>
                 <li>
                   <Link
-                    href=""
+                    href="/#timeline"
                     className=" hover:text-[#39a7ff] transition duration-300"
                   >
                     Timeline

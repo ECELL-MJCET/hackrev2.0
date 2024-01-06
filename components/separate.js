@@ -52,6 +52,40 @@ const Separate = () => {
         <div className="flex justify-center">
           <div className="w-[97%] lg:w-[70%]">
             <div className="grid grid-cols-1 gap-8">
+            <div className=" border-[#39a7ff] border-[1px] rounded-lg lg:rounded-2xl shadows flex flex-col items-center pt-2">
+                <div className="flex flex-col lg:flex-row items-center justify-start gap-4 p-3">
+                  <div className="p-4 bg-[#39a7ff] rounded-full">
+                    {" "}
+                    <img
+                      src="../assets/fintech.webp"
+                      className="lg:h-16 lg:w-16 h-12"
+                      alt=""
+                    />
+                  </div>
+                  <div className="lg:w-[80%] text-white">
+                    <div className="hsmall text-xl font-extrabold text-center lg:text-left">
+                      Fintech
+                    </div>
+                    <div className="hsmall leading-snug tracking-tight text-sm lg:text-[16px] mt-1 text-center lg:text-left ">
+                      Shape the future of finance in the Fintech pathway by
+                      exploring blockchain and other cutting-edge financial
+                      innovations. Whether you are developing disruptive payment
+                      solutions or innovative financial apps such as <span className="font-mono font-bold"> E-Commerce </span>
+                applications
+                    </div>
+                  </div>
+                </div>
+                <div className="flex justify-center items-center px-2 lg:px-3 py-2 lg:py-2 border-2 border-[#39a7ff] rounded-xl cursor-pointer bg-[#39a7ff] hover:bg-opacity-70 w-[60%] lg:w-[40%]  mt-2 mb-4 duration-500  transition delay-300">
+                  <Link
+                    href="https://forms.gle/LYTnthakgSax6pK58"
+                    target="_blank"
+                  >
+                    <div className="text-md lg:text-[20px] text-white hsmall flex justify-center items-center font-extrabold">
+                      Register Now <BsArrowRight className="ml-1" />
+                    </div>
+                  </Link>
+                </div>
+              </div>
               <div className=" border-[#39a7ff] border-[1px] rounded-lg lg:rounded-2xl shadows flex flex-col items-center pt-2">
                 <div className="flex flex-col lg:flex-row items-center justify-start gap-4 p-3">
                   <div className="p-4 bg-[#39a7ff] rounded-full">
@@ -77,7 +111,7 @@ const Separate = () => {
                 </div>
                 <div className="flex justify-center items-center px-2 lg:px-3 py-2 lg:py-2 border-2 border-[#39a7ff] rounded-xl cursor-pointer bg-[#39a7ff] hover:bg-opacity-70 w-[60%] lg:w-[40%]  mt-2 mb-4 duration-500  transition delay-300">
                   <Link
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdvgoPeIs7DYNlr1C2-hjQt9-g28w0IX_Vq7fQPYm48Ip8QOg/viewform"
+                    href="https://forms.gle/gr1LMWZYxmSKqSk46"
                     target="_blank"
                   >
                     <div className="text-md lg:text-[20px] text-white hsmall flex justify-center items-center font-extrabold">
@@ -109,7 +143,7 @@ const Separate = () => {
                 </div>
                 <div className="flex justify-center items-center px-2 lg:px-3 py-2 lg:py-2 border-2 border-[#39a7ff] rounded-xl cursor-pointer bg-[#39a7ff] hover:bg-opacity-70 w-[60%] lg:w-[40%]  mt-2 mb-4 duration-500  transition delay-300">
                   <Link
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdvgoPeIs7DYNlr1C2-hjQt9-g28w0IX_Vq7fQPYm48Ip8QOg/viewform"
+                    href="https://forms.gle/pbicV7oa2RzKMbCR6"
                     target="_blank"
                   >
                     <div className="text-md lg:text-[20px] text-white hsmall flex justify-center items-center font-extrabold">
@@ -141,7 +175,7 @@ const Separate = () => {
                 </div>
                 <div className="flex justify-center items-center px-2 lg:px-3 py-2 lg:py-2 border-2 border-[#39a7ff] rounded-xl cursor-pointer bg-[#39a7ff] hover:bg-opacity-70 w-[60%] lg:w-[40%]  mt-2 mb-4 duration-500  transition delay-300">
                   <Link
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdvgoPeIs7DYNlr1C2-hjQt9-g28w0IX_Vq7fQPYm48Ip8QOg/viewform"
+                    href="https://forms.gle/pdRV8uLpfyZppjTB8"
                     target="_blank"
                   >
                     <div className="text-md lg:text-[20px] text-white hsmall flex justify-center items-center font-extrabold">
@@ -150,41 +184,7 @@ const Separate = () => {
                   </Link>
                 </div>
               </div>
-              <div className=" border-[#39a7ff] border-[1px] rounded-lg lg:rounded-2xl shadows flex flex-col items-center pt-2">
-                <div className="flex flex-col lg:flex-row items-center justify-start gap-4 p-3">
-                  <div className="p-4 bg-[#39a7ff] rounded-full">
-                    {" "}
-                    <img
-                      src="../assets/fintech.webp"
-                      className="lg:h-16 lg:w-16 h-12"
-                      alt=""
-                    />
-                  </div>
-                  <div className="lg:w-[80%] text-white">
-                    <div className="hsmall text-xl font-extrabold text-center lg:text-left">
-                      Fintech
-                    </div>
-                    <div className="hsmall leading-snug tracking-tight text-sm lg:text-[16px] mt-1 text-center lg:text-left ">
-                      Shape the future of finance in the Fintech pathway by
-                      exploring blockchain and other cutting-edge financial
-                      innovations. Whether you are developing disruptive payment
-                      solutions or innovative financial apps, this pathway
-                      invites you to redefine the landscape where tech and
-                      finance converge.
-                    </div>
-                  </div>
-                </div>
-                <div className="flex justify-center items-center px-2 lg:px-3 py-2 lg:py-2 border-2 border-[#39a7ff] rounded-xl cursor-pointer bg-[#39a7ff] hover:bg-opacity-70 w-[60%] lg:w-[40%]  mt-2 mb-4 duration-500  transition delay-300">
-                  <Link
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSdvgoPeIs7DYNlr1C2-hjQt9-g28w0IX_Vq7fQPYm48Ip8QOg/viewform"
-                    target="_blank"
-                  >
-                    <div className="text-md lg:text-[20px] text-white hsmall flex justify-center items-center font-extrabold">
-                      Register Now <BsArrowRight className="ml-1" />
-                    </div>
-                  </Link>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>

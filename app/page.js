@@ -9,12 +9,18 @@ import Timeline from "@/components/timline";
 import Tracks from "@/components/tracks";
 import History from "@/components/history";
 import Image from "next/image";
+import Timer from "@/components/timer";
+import TimerTwo from "@/components/timerTwo";
+import Alert from "@/components/alert";
 
 export default function Home() {
   return (
     <div>
+      {/* <div className="bg-[#0E0F68]"><Alert /></div> */}
       <div className="bg-gradient-radial from-[#0E0F68] to-[#18141c]">
+      {/* <Alert /> */}
         <Header />
+        {/* <TimerTwo /> */}
         <Tracks />
       </div>
       {/* <div className='bg-gradient-radial from-[#0E0F68] to-[#18141c]'> */}
@@ -36,11 +42,14 @@ export default function Home() {
         <Rules />
       </div>
       <div className="bg-gradient-radial from-[#0E0F68] to-[#18141c]">
-        <Registration />
+        {/* <Registration /> */}
         <History />
         <Organizers />
         <Footer />
+        
+        {/* <Timer /> */}
       </div>
+      
     </div>
   );
 }

@@ -7,6 +7,7 @@ import form from "../app/form/page";
 import csi from "../public/assets/csilogo.webp";
 import ecell from "../public/assets/ectext.webp";
 import hello from "../public/assets/aces.webp";
+import Timer from "./timer";
 
 const Header = () => {
   return (
@@ -16,13 +17,13 @@ const Header = () => {
         {/* <img src="../assets/pngtree.png" className='h-screen w-full' alt="" /> */}
         <div className="flex justify-center lg:justify-between items-center h-20 ">
           <div className="uppercase text-white">
-            <Image
+           <Link href="https://mjcollege.ac.in/" target="_blank"> <Image
               src="../assets/mj1.webp"
               width={150}
               height={100}
               alt="svg"
               className="h-20 w-full lg:h-22 lg:w-full mt-5"
-            />
+            /></Link>
           </div>
           <div className="hidden lg:block">
             <ul className="text-gray-400 text-[18px] flex flex-row items-center gap-9 font-mono font-semibold">
@@ -36,10 +37,11 @@ const Header = () => {
                   Rules
                 </Link>
               </li>
-              <li>
+              <li className="pointer-events-none opacity-30">
                 <Link
                   href="/form"
                   className=" hover:text-[#39a7ff] transition duration-300"
+                  aria-disabled
                 >
                   Register
                 </Link>
@@ -113,22 +115,24 @@ const Header = () => {
 
               <div className="hsmall text-white mt-2 lg:mt-4 font-extrabold ml-1 text-[max(1.1rem,min(2.5vw,2.7rem))]  flex items-center">
                 <div>Powered by</div>{" "}
-                <img
+                <Link href="https://www.aces-co.com/" target="_blank"><img
                   src="../assets/aces.webp"
                   className="h-5  lg:h-10 ml-1 lg:ml-3"
                   alt=""
                 />
+                </Link>
               </div>
             </div>
           </div>
-          <div>
-            <Link className="" href="/form">
-              <div className="flex justify-center items-center px-7 py-3 border-2 border-[#39a7ff] rounded-lg shadows cursor-pointer hover:bg-[#39a7ff] hover:bg-opacity-70 mt-10 lg:mt-20  duration-500">
+          <div className="flex flex-col items-center gap-y-4">
+            <Link className="" href="/results" >
+              <div className="flex justify-center items-center px-7 py-3 border-2  border-[#39a7ff] rounded-lg shadows cursor-pointer hover:bg-[#39a7ff] hover:bg-opacity-70 mt-10 lg:mt-20  animate-bounce duration-500">
                 <div className="text-lg lg:text-xl text-white hsmall flex justify-center items-center font-extrabold">
-                  Register Here <BsArrowRight className="ml-1" />
+                  View Results <BsArrowRight className="ml-1" />
                 </div>
               </div>
             </Link>
+           
           </div>
         </div>
 

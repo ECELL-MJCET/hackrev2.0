@@ -12,29 +12,29 @@ import hackrev2023 from "../public/assets/history/hackrev-2023.webp";
 
 const History = () => {
   return (
-    <div className="flex justify-center flex-col items-center  pt-14">
-      <div className=" w-[95%] lg:w-[60%] ">
+    <div className="flex justify-center flex-col items-center  pt-14 hsmall font-extrabold">
+      <div className=" w-[95%] lg:w-[85%] ">
         <div className="text-white text-center  text-[35px] lg:text-[50px] htext ">
           History
         </div>
-        <section class="text-gray-600 body-font">
-          <div class="container px-5 py-24 mx-auto flex flex-wrap">
-            <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
-              <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+        <section className="text-gray-600 body-font">
+          <div className="container px-5 py-12 mx-auto flex flex-wrap">
+            <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+              <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
-              <div class="flex-shrink-0 w-12 h-12 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center right-3 bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center right-3 bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
                 2014
               </div>
-              <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                <div class="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-12 h-12"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-12 h-12"
                     viewBox="0 0 24 24"
                   >
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -44,11 +44,11 @@ const History = () => {
                     src={Google2014}
                   />
                 </div>
-                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                  <h2 class="font-medium title-font text-white mb-1 text-xl">
+                <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h2 className="font-medium title-font text-white mb-1 text-xl">
                     Google Hackathon
                   </h2>
-                  <p class="leading-relaxed text-white">
+                  <p className="leading-relaxed text-white">
                     Google Student Club VCE collaborated with Computer Society
                     Of India (CSI) -MJCET to conduct "India's 1st Digital
                     Footprint" in Hyderabad, a Hackathon for the student web
@@ -58,22 +58,22 @@ const History = () => {
                 </div>
               </div>
             </div>
-            <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-              <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            <div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+              <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
-              <div class="flex-shrink-0 w-12 h-12 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center right-3 bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
+              <div className="flex-shrink-0 w-12 h-12 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center right-3 bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
                 2015
               </div>
-              <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                <div class="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-12 h-12"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-12 h-12"
                     viewBox="0 0 24 24"
                   >
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -83,11 +83,11 @@ const History = () => {
                     src={Mozilla2015}
                   />
                 </div>
-                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                  <h2 class="font-medium title-font text-white mb-1 text-xl">
+                <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h2 className="font-medium title-font text-white mb-1 text-xl">
                     Mozilla Hackathon
                   </h2>
-                  <p class="leading-relaxed text-white">
+                  <p className="leading-relaxed text-white">
                     The department of Computer Science, Muffakham Jah College of
                     Engineering and Technology and CSI-MJCET in collaboration
                     with Mozilla Firefox succesfully organized a 12hr
@@ -98,22 +98,22 @@ const History = () => {
                 </div>
               </div>
             </div>
-            <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-              <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            <div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+              <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
-              <div class="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
+              <div className="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
                 2016
               </div>
-              <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                <div class="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-12 h-12"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-12 h-12"
                     viewBox="0 0 24 24"
                   >
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -123,11 +123,11 @@ const History = () => {
                     src={xtreme2016}
                   />
                 </div>
-                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                  <h2 class="font-medium title-font text-white mb-1 text-xl">
+                <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h2 className="font-medium title-font text-white mb-1 text-xl">
                     XTREMEHACK
                   </h2>
-                  <p class="leading-relaxed text-white">
+                  <p className="leading-relaxed text-white">
                     The 12 hour long extravaganza organized by Computer Society
                     of Inida (CSI)-MJCET partnering up with XtreamIT saw a
                     quality turnout from various colleges from across the map of
@@ -137,22 +137,22 @@ const History = () => {
                 </div>
               </div>
             </div>
-            <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
-              <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+              <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
-              <div class="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
+              <div className="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
                 2017
               </div>
-              <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                <div class="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-12 h-12"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-12 h-12"
                     viewBox="0 0 24 24"
                   >
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -162,11 +162,11 @@ const History = () => {
                     src={mjhack2017}
                   />
                 </div>
-                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                  <h2 class="font-medium title-font text-white mb-1 text-xl">
+                <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h2 className="font-medium title-font text-white mb-1 text-xl">
                     MJ-Hack
                   </h2>
-                  <p class="leading-relaxed text-white">
+                  <p className="leading-relaxed text-white">
                     On 8th October 2017, at Ghulam Ahmed Hall, MJCET we have
                     organised "MJ-Hack", a 12 hour hackathon from 8:30 am to
                     8:30 pm and received enormous response from 150 participants
@@ -176,22 +176,22 @@ const History = () => {
                 </div>
               </div>
             </div>
-            <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
-              <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+              <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
-              <div class="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
+              <div className="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
                 2018
               </div>
-              <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                <div class="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-12 h-12"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-12 h-12"
                     viewBox="0 0 24 24"
                   >
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -201,11 +201,11 @@ const History = () => {
                     src={mjhack2018}
                   />
                 </div>
-                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                  <h2 class="font-medium title-font text-white mb-1 text-xl">
+                <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h2 className="font-medium title-font text-white mb-1 text-xl">
                     MJ-Hack
                   </h2>
-                  <p class="leading-relaxed text-white">
+                  <p className="leading-relaxed text-white">
                     Computer Society Of India(CSI)-MJCET conducted a hackathon
                     for the students to propose and develop a solution to the
                     given problem statements within 12 hrs on 19th January 2018
@@ -216,22 +216,22 @@ const History = () => {
                 </div>
               </div>
             </div>
-            <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
-              <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+              <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
-              <div class="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
+              <div className="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
                 2019
               </div>
-              <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                <div class="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-12 h-12"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-12 h-12"
                     viewBox="0 0 24 24"
                   >
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -241,11 +241,11 @@ const History = () => {
                     src={hackrev2019}
                   />
                 </div>
-                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                  <h2 class="font-medium title-font text-white mb-1 text-xl">
+                <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h2 className="font-medium title-font text-white mb-1 text-xl">
                     Hack Revolution
                   </h2>
-                  <p class="leading-relaxed text-white">
+                  <p className="leading-relaxed text-white">
                     Muffakham Jah College of Engineering and Technology, held
                     2019’s most awaited and anticipated event, HACK REVOLUTION
                     on the 27th of January, 2019. The event witnessed the
@@ -255,22 +255,22 @@ const History = () => {
                 </div>
               </div>
             </div>
-            <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
-              <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+              <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
-              <div class="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
+              <div className="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
                 2020
               </div>
-              <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                <div class="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-12 h-12"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-12 h-12"
                     viewBox="0 0 24 24"
                   >
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -280,11 +280,11 @@ const History = () => {
                     src={hackrev2020}
                   />
                 </div>
-                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                  <h2 class="font-medium title-font text-white mb-1 text-xl">
+                <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h2 className="font-medium title-font text-white mb-1 text-xl">
                     Hack Revolution
                   </h2>
-                  <p class="leading-relaxed text-white">
+                  <p className="leading-relaxed text-white">
                     Computer Society Of India(CSI) in collaboration with
                     Entreneurship-Cell (MJCET) conducted a hackathon for the
                     students to propose and develop a solution to the given
@@ -295,22 +295,22 @@ const History = () => {
                 </div>
               </div>
             </div>
-            <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
-              <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+              <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
-              <div class="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
+              <div className="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
                 2022
               </div>
-              <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                <div class="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-12 h-12"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-12 h-12"
                     viewBox="0 0 24 24"
                   >
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -320,11 +320,11 @@ const History = () => {
                     src={hackrev2022}
                   />
                 </div>
-                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                  <h2 class="font-medium title-font text-white mb-1 text-xl">
+                <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h2 className="font-medium title-font text-white mb-1 text-xl">
                     Hack Revolution
                   </h2>
-                  <p class="leading-relaxed text-white">
+                  <p className="leading-relaxed text-white">
                     The HackRevolution-2022 hackathon was a 15 hour event held
                     on January 8th, 2022 at Ghulam Ahmed Hall. It was organized
                     by CSI and ECell MJCET and featured participants from
@@ -335,22 +335,22 @@ const History = () => {
                 </div>
               </div>
             </div>
-            <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
-              <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-                <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+            <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+              <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
               </div>
-              <div class="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
+              <div className="flex-shrink-0 w-12 h-12 right-3 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-[12px]">
                 2023
               </div>
-              <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                <div class="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
+              <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
                   <svg
                     fill="none"
                     stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    class="w-12 h-12"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    className="w-12 h-12"
                     viewBox="0 0 24 24"
                   >
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
@@ -360,11 +360,11 @@ const History = () => {
                     src={hackrev2023}
                   />
                 </div>
-                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                  <h2 class="font-medium title-font text-white mb-1 text-xl">
+                <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h2 className="font-medium title-font text-white mb-1 text-xl">
                     Hack Revolution 1.0
                   </h2>
-                  <p class="leading-relaxed text-white">
+                  <p className="leading-relaxed text-white">
                     Hack Revolution is a social coding competition conducted by
                     the Smart India hackathon, consisting of 3-6 members in a
                     team. It was conducted on 8th January of 2023. It provides

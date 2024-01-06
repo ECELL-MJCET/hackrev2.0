@@ -1,0 +1,25 @@
+@keyframes scrollText {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.scrollingTextContainer {
+  overflow: hidden;
+  width: 100%;
+}
+
+.scrollingText {
+  white-space: nowrap;
+  animation: scrollText 15s linear infinite;
+  color: white;
+  font-family: montserrat;
+  font-weight: 800;
+  font-size: 18px;
+  padding-top: 5px;
+  margin-bottom: 3px;
+  /* word-spacing: 3px; */
+}

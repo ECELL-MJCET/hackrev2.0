@@ -8,28 +8,8 @@ const Tracks = () => {
           Tracks
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-12">
-          <div className="flex flex-row items-center justify-start gap-4 p-3 border-[#39a7ff] border-[1px] rounded-xl shadows">
-            <div className="p-4 bg-[#39a7ff] rounded-full">
-              {" "}
-              <img
-                src="../assets/soft.webp"
-                className="lg:h-16 lg:w-16 h-12"
-                alt=""
-              />
-            </div>
-
-            <div className="w-[80%] text-white">
-              <div className="hsmall text-xl font-extrabold">
-                Generic Software
-              </div>
-              <div className="hsmall leading-snug tracking-tight text-sm mt-1 ">
-                Discover the world of computer magic in the Generic Software
-                pathway. It is all about creating cool things like websites and
-                mobile apps. Whether you are a coding whiz or just getting
-                started, dive into crafting awesome digital solutions!
-              </div>
-            </div>
-          </div>
+          
+          {/* hardware */}
           <div className="flex flex-row items-center justify-start gap-4 p-3 border-[#39a7ff] border-[1px] rounded-xl shadows">
             <div className="p-4 bg-[#39a7ff] rounded-full">
               {" "}
@@ -65,8 +45,30 @@ const Tracks = () => {
                 Shape the future of finance in the Fintech pathway by exploring
                 blockchain and other cutting-edge financial innovations. Whether
                 you are developing disruptive payment solutions or innovative
-                financial apps, this pathway invites you to redefine the
-                landscape where tech and finance converge.
+                financial apps such as <span className="font-mono font-bold"> E-Commerce </span>
+                applications
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row items-center justify-start gap-4 p-3 border-[#39a7ff] border-[1px] rounded-xl shadows">
+            <div className="p-4 bg-[#39a7ff] rounded-full">
+              {" "}
+              <img
+                src="../assets/soft.webp"
+                className="lg:h-16 lg:w-16 h-12"
+                alt=""
+              />
+            </div>
+
+            <div className="w-[80%] text-white">
+              <div className="hsmall text-xl font-extrabold">
+                Generic Software
+              </div>
+              <div className="hsmall leading-snug tracking-tight text-sm mt-1 ">
+                Discover the world of computer magic in the Generic Software
+                pathway. It is all about creating cool things like websites and
+                mobile apps. Whether you are a coding whiz or just getting
+                started, dive into crafting awesome digital solutions!
               </div>
             </div>
           </div>
